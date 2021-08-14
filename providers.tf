@@ -8,9 +8,7 @@ terraform {
 }
 
 # Configura o Provider Google Cloud com o Projeto
-provider "google" {
-
-  
+provider "google" {  
 
   project = "labdevopscloud-ingrid"
   region  = "us-central1"
